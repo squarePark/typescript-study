@@ -41,3 +41,9 @@ function 나의함수(a: 'park') {
 //       1. 타입을 object 의 value 로 바꿔줌
 //       2. ojbect 안에 있는 모든 속성을 readonly 로 바꿔줌
 // 결론 ... object 를 잠궈 놓고 쓸 수 있음
+
+// 하나 더 써볼까?
+const colors = ['red', 'green', 'blue'] as const;
+// colors[0] = 'yellow'; // 이게 되면 안되잔슴!! 그니까 위 color 변수에 as const 를 넣으면
+// 0번째에 넣을 수 없다고 알려줌 ~_~
+

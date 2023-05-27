@@ -1,4 +1,4 @@
-// public, private, protected, static 키워드를 써보자
+// public, private 키워드를 써보자
 var UserClass = /** @class */ (function () {
     // 파라미터를 지정 가능하기 때문에 사용
     function UserClass(a) {
